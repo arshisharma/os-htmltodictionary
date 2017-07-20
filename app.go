@@ -72,12 +72,102 @@ var FashionDesktop = map[string]ScrapeElement {
     "B3" : {[]string{".official-shop-branding__video"}, 2},
 }
 
+var FashionMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
+    "V1" : {[]string{".swiper-slide", ".official-shop-promo__type1"}, 0},
+    "V2" : {[]string{".swiper-slide", ".official-shop-promo__type1"}, 1},
+    "V3" : {[]string{".swiper-slide", ".official-shop-promo__type1"}, 2},
+    "V4" : {[]string{".swiper-slide", ".official-shop-promo__type1"}, 3},
+    "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
+    "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
+    "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
+    "VV4" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 3},
+    "V5" : {[]string{".section-official-shop-promo__type2", ".span6"}, 0},
+    "V6" : {[]string{".section-official-shop-promo__type2", ".span6"}, 1},
+    "V7" : {[]string{".section-official-shop-promo__type2", ".span6"}, 2},
+    "V8" : {[]string{".section-official-shop-promo__type2", ".span6"}, 3},
+}
+
+var FashionApps = FashionMobile
+
+var SophisticatedDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
+    "VVV1" : {[]string{".small-brand-logo"}, 0},
+    "VVV2" : {[]string{".small-brand-logo"}, 1},
+    "VVV3" : {[]string{".small-brand-logo"}, 2},
+    "VVV4" : {[]string{".small-brand-logo"}, 3},
+    "VVV5" : {[]string{".small-brand-logo"}, 4},
+    "VVV6" : {[]string{".small-brand-logo"}, 5},
+    "VVV7" : {[]string{".small-brand-logo"}, 6},
+    "VV1" : {[]string{".swiper-slide"}, 0},
+    "VV2" : {[]string{".swiper-slide"}, 1},
+    "VV3" : {[]string{".swiper-slide"}, 2},
+    "VV4" : {[]string{".swiper-slide"}, 3},
+    "V1" : {[]string{".official-shop-promo__type2"}, 0},
+    "V2" : {[]string{".official-shop-promo__type2"}, 1},
+    "V3" : {[]string{".official-shop-promo__type2"}, 2},
+    "V4" : {[]string{".span6.official-shop-promo__banner-half"}, 0},
+    "V5" : {[]string{".span6.official-shop-promo__banner-half"}, 1},
+}
+
+var SophisticatedMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
+    "VVV1" : {[]string{".official-shop-brands", ".swiper-slide"}, 0},
+    "VVV2" : {[]string{".official-shop-brands", ".swiper-slide"}, 1},
+    "VVV3" : {[]string{".official-shop-brands", ".swiper-slide"}, 2},
+    "VVV4" : {[]string{".official-shop-brands", ".swiper-slide"}, 3},
+    "VVV5" : {[]string{".official-shop-brands", ".swiper-slide"}, 4},
+    "VVV6" : {[]string{".official-shop-brands", ".swiper-slide"}, 5},
+    "VVV7" : {[]string{".official-shop-brands", ".swiper-slide"}, 6},
+    "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
+    "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
+    "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
+    "VV4" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 3},
+    "V1" : {[]string{".span12"}, 0},
+    "V2" : {[]string{".span6"}, 0},
+    "V3" : {[]string{".span6"}, 1},
+    "V4" : {[]string{".row-fluid"}, 2},
+    "V5" : {[]string{".row-fluid"}, 3},
+}
+
+var SophisticatedApps = SophisticatedMobile
+
 var Scrapers = map[string]interface{} {
     "advanced-Desktop" : AdvancedDesktop,
     "advanced-Mobile" : AdvancedMobile,
     "advanced-Apps" : AdvancedApps,
 
     "fashion-Desktop" : FashionDesktop,
+    "fashion-Mobile" : FashionMobile,
+    "fashion-Apps" : FashionApps,
+
+    "sophisticated-Desktop" : SophisticatedDesktop,
+    "sophisticated-Mobile" : SophisticatedMobile,
+    "sophisticated-Apps" : SophisticatedApps,
+
+    // "convenience-Desktop" : ConvenienceDesktop,
+    // "convenience-Mobile" : ConvenienceMobile,
+    // "convenience-Apps" : ConvenienceApps,
+
+    // "big-promo-Desktop" : BigPromoDesktop,
+    // "big-promo-Mobile" : BigPromoMobile,
+    // "big-promo-Apps" : BigPromoApps,
+
+    // "futuristic-Desktop" : FuturisticDesktop,
+    // "futuristic-Mobile" : FuturisticMobile,
+    // "futuristic-Apps" : FuturisticApps,
+
+    // "classy-Desktop" : ClassyDesktop,
+    // "classy-Mobile" : ClassyMobile,
+    // "classy-Apps" : ClassyApps,
+
+    // "home-appliance-Desktop" : HomeApplianceDesktop,
+    // "home-appliance-Mobile" : HomeApplianceMobile,
+    // "home-appliance-Apps" : HomeApplianceApps,
+
+    // "all-in-one-Desktop" : AllInOneDesktop,
+    // "all-in-one-Mobile" : AllInOneMobile,
+    // "all-in-one-Apps" : AllInOneApps,
 }
 
 func main() {
@@ -91,79 +181,6 @@ func main() {
     // log.Println(BuildTemplateMap(htmlFile))
     BuildDict(htmlFile, outFile, template, section)
 
-}
-
-func BuildTemplateMap(fp string) (string, error) {
-    fph, err := os.Open(fp)
-    if err != nil {
-        return "adsf", err
-    }
-
-    defer fph.Close()
-    doc, err := html.Parse(fph)
-    if err != nil {
-        return "adsf", err
-    }
-    //log.Println(doc)
-    docs := goquery.NewDocumentFromNode(doc)
-
-
-    // log.Println(docs.Find(".small-brand-logo").Find("a").Attr("href"))
-
-
-    // list := make(map[string]*ScrapeElement)
-    // list["G"] = &ScrapeElement{[]string{"h2"}, 0}
-    // list["V1"] = &ScrapeElement{[]string{".small-brand-logo", "a"}, 4}
-    list := AdvancedDesktop
-    // var x = docs.Find("div")
-    for key, val := range list {
-        // x = docs.Find("div")
-        log.Println(key + " = " +GetValue(docs, val, "img"))
-    }
-    // for _, v := range list["V1"].path {
-    //     x = x.Find(v)
-    //     // log.Println(x)
-    // }
-    // log.Println(x.Slice(list["V1"].index, x.Length()).Attr("data-name"))
-    // temp := make(map[string]string)
-    // temp["target"] = "asdf"
-    // data["V8"] = temp
-
-    // var f func(*html.Node)
- //    f = func(n *html.Node) {
- //        if n.Type == html.ElementNode {
- //            if (n.Data == "a" || n.Data == "img") {
- //                for _, x := range n.Attr {
- //                    if (x.Val != "") {
- //                        if (!strings.Contains(x.Key, "target")) {
- //                            //data[x.Key][x.Key] = x.Key
- //                            if (strings.Contains(x.Val, "{{")) {
- //                             log.Println(x.Val)
- //                            }
- //                        }
- //                    }
- //                }
- //            }
-
- //            // if the tag is a slider-div then we don't want to count the children
- //            // since html can have different number of slides and still should be counted
- //            // as valid template.
- //            if len(n.Attr) > 0 {
- //                if n.Attr[0].Key == "class" {
- //                    if n.Attr[0].Val == "swiper-wrapper" {
- //                        return
- //                    }
- //                }
- //            }
- //        }
- //        for c := n.FirstChild; c != nil; c = c.NextSibling {
- //            f(c)
- //        }
- //    }
- //    f(doc)
-
-    // return data, nil
-    return "adsf", nil
 }
 
 func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
