@@ -18,33 +18,78 @@ type ScrapeElement struct {
 
 var AdvancedDesktop = map[string]ScrapeElement {
     "G" : {[]string{"h2"}, 0},
-    "V1" : {[]string{".small-brand-logo", "a"}, 0},
-    "V2" : {[]string{".small-brand-logo", "a"}, 1},
-    "V3" : {[]string{".small-brand-logo", "a"}, 2},
-    "V4" : {[]string{".small-brand-logo", "a"}, 3},
-    "V5" : {[]string{".small-brand-logo", "a"}, 4},
-    "V6" : {[]string{".small-brand-logo", "a"}, 5},
-    "V7" : {[]string{".small-brand-logo", "a"}, 6},
-    "VV1" : {[]string{".telco-slider-tracker"}, 0},
-    "VV2" : {[]string{".telco-slider-tracker"}, 1},
-    "VV3" : {[]string{".telco-slider-tracker"}, 2},
-    "V8" : {[]string{".official-shop-promo__banner-half", "a"}, 0},
-    "V9" : {[]string{".mt-20", "a"}, 0},
-    "V10" : {[]string{".official-shop-promo__type2 ", "a"}, 0},
-    "T": {[]string{".official-promo-top-video", "a"}, 0},
+    "V1" : {[]string{".small-brand-logo"}, 0},
+    "V2" : {[]string{".small-brand-logo"}, 1},
+    "V3" : {[]string{".small-brand-logo"}, 2},
+    "V4" : {[]string{".small-brand-logo"}, 3},
+    "V5" : {[]string{".small-brand-logo"}, 4},
+    "V6" : {[]string{".small-brand-logo"}, 5},
+    "V7" : {[]string{".small-brand-logo"}, 6},
+    "VV1" : {[]string{".swiper-slide"}, 0},
+    "VV2" : {[]string{".swiper-slide"}, 1},
+    "VV3" : {[]string{".swiper-slide"}, 2},
+    "V8" : {[]string{".official-shop-promo__banner-half"}, 0},
+    "V9" : {[]string{".span6", ".row-fluid", ".mt-20"}, 0},
+    "V10" : {[]string{".span6", ".row-fluid", ".span6.official-shop-promo__type2 "}, 1},
+    "T": {[]string{".official-promo-top-video"}, 0},
 }
 
-var TemplateImageResolution = map[string]interface{} {
+var AdvancedMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
+    "V1" : {[]string{".official-slide-category", ".swiper-slide"}, 0},
+    "V2" : {[]string{".official-slide-category", ".swiper-slide"}, 1},
+    "V3" : {[]string{".official-slide-category", ".swiper-slide"}, 2},
+    "V4" : {[]string{".official-slide-category", ".swiper-slide"}, 3},
+    "V5" : {[]string{".official-slide-category", ".swiper-slide"}, 4},
+    "V6" : {[]string{".official-slide-category", ".swiper-slide"}, 5},
+    "V7" : {[]string{".official-slide-category", ".swiper-slide"}, 6},
+    "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
+    "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
+    "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
+    "V8" : {[]string{".span12"}, 0},
+    "V9" : {[]string{".span6"}, 0},
+    "V10" : {[]string{".span6"}, 1},
+}
+
+var AdvancedApps = AdvancedMobile
+
+var FashionDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
+    "V1" : {[]string{".official-shop-promo__type1"}, 0},
+    "V2" : {[]string{".official-shop-promo__type1"}, 1},
+    "V3" : {[]string{".official-shop-promo__type1"}, 2},
+    "V4" : {[]string{".official-shop-promo__type1"}, 3},
+    "VV1" : {[]string{".swiper-slide"}, 0},
+    "VV2" : {[]string{".swiper-slide"}, 1},
+    "VV3" : {[]string{".swiper-slide"}, 2},
+    "VV4" : {[]string{".swiper-slide"}, 3},
+    "V5" : {[]string{".official-shop-promo__type2"}, 0},
+    "V6" : {[]string{".official-shop-promo__type2"}, 1},
+    "V7" : {[]string{".official-shop-promo__type2"}, 2},
+    "V8" : {[]string{".official-shop-promo__type2"}, 3},
+    "B1" : {[]string{".official-shop-branding__video"}, 0},
+    "B2" : {[]string{".official-shop-branding__video"}, 1},
+    "B3" : {[]string{".official-shop-branding__video"}, 2},
+}
+
+var Scrapers = map[string]interface{} {
     "advanced-Desktop" : AdvancedDesktop,
+    "advanced-Mobile" : AdvancedMobile,
+    "advanced-Apps" : AdvancedApps,
+
+    "fashion-Desktop" : FashionDesktop,
 }
 
 func main() {
     // templateName := os.Args[1]
     // sectionName := os.Args[2]
     htmlFile := os.Args[1]
+    outFile := os.Args[2]
+    template := os.Args[3]
+    section := os.Args[4]
 
     // log.Println(BuildTemplateMap(htmlFile))
-    BuildDict(htmlFile)
+    BuildDict(htmlFile, outFile, template, section)
 
 }
 
@@ -132,6 +177,12 @@ func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
             return x.Slice(key.index, x.Length()).Find("img").AttrOr("src", "")
         } else if (attr == "text") {
             return x.Slice(key.index, x.Length()).Text()
+        } else if (attr == "video-url") {
+            return x.Slice(key.index, x.Length()).Find("iframe").AttrOr("src", "")
+        } else if (attr == "href" || attr == "data-value" || attr == "data-name" || strings.Contains(attr, "video")) {
+            return x.Slice(key.index, x.Length()).Find("a").AttrOr(attr, "")
+        } else if (attr == "txt") {
+            return x.Slice(key.index, key.index+1).Find("p").Text()
         } else {
             return x.Slice(key.index, x.Length()).AttrOr(attr, "")
         }
@@ -144,13 +195,20 @@ func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
     return ""
 }
 
-func BuildDict(fp string) {
+func BuildDict(fp string, fouts string, template string, section string) {
     fph, err := os.Open(fp)
     if err != nil {
         return
     }
 
     defer fph.Close()
+
+    fout, err := os.Create(fouts)
+    if err != nil {
+        return
+    }
+    defer fout.Close()
+
     doc, err := html.Parse(fph)
     if err != nil {
         return
@@ -158,9 +216,9 @@ func BuildDict(fp string) {
     //log.Println(doc)
     docs := goquery.NewDocumentFromNode(doc)
 
-    list := AdvancedDesktop
+    list := Scrapers[template+"-"+section].(map[string]ScrapeElement)
 
-    default_dict, err := os.Open("desktop.txt")
+    default_dict, err := os.Open(strings.ToLower(section)+".txt")
     if err != nil {
         return
     }
@@ -203,6 +261,9 @@ func BuildDict(fp string) {
                     content = GetValue(docs, list[sectionTitle], "data-video-title")
                 } else if (key == "VideoUrl") {
                     content = GetValue(docs, list[sectionTitle], "data-video-colorbox")
+                    if (content == "") {
+                        content = GetValue(docs, list[sectionTitle], "video-url")
+                    }
                 } else if (key == "VideoId") {
                     content = GetValue(docs, list[sectionTitle], "data-video-id")
                 } else if (key == "VideoName") {
@@ -227,11 +288,15 @@ func BuildDict(fp string) {
                         content = "produk"
                     }
                 } else if (key == "DisplayName") {
-                    content = strings.TrimSpace(s[1])
+                    content = strings.TrimSpace(s[1]) + "\n"
+                } else if (key == "Text") {
+                    content = GetValue(docs, list[sectionTitle], "txt")
                 }
                 log.Println("\t"+key + " = " + content)
+                fout.WriteString("\t"+key + " = " + content + "\n")
             } else {
                 log.Println(key)
+                fout.WriteString(key + "\n")
                 //Check if line is section title
                 if (key[0] == '[' && key[len(key)-1] == ']') {
                     sectionTitle = key
