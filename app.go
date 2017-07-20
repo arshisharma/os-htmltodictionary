@@ -192,6 +192,29 @@ var BigPromoMobile = map[string]ScrapeElement {
 
 var BigPromoApps = BigPromoMobile
 
+var FuturisticDesktop = map[string]ScrapeElement {
+    "VV1" : {[]string{".swiper-slide"}, 0},
+    "VV2" : {[]string{".swiper-slide"}, 1},
+    "VV3" : {[]string{".swiper-slide"}, 2},
+    "V1" : {[]string{".span3"}, 0},
+    "V2" : {[]string{".span3"}, 1},
+    "V3" : {[]string{".span3"}, 2},
+    "V4" : {[]string{".span3"}, 3},
+    "B1" : {[]string{".official-shop-branding"}, 3},
+}
+
+var FuturisticMobile = map[string]ScrapeElement {
+    "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
+    "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
+    "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
+    "V1" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 0},
+    "V2" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 1},
+    "V3" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 2},
+    "V4" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 3},
+}
+
+var FuturisticApps = FuturisticMobile
+
 var Scrapers = map[string]interface{} {
     "advanced-Desktop" : AdvancedDesktop,
     "advanced-Mobile" : AdvancedMobile,
@@ -213,9 +236,9 @@ var Scrapers = map[string]interface{} {
     "big-promo-Mobile" : BigPromoMobile,
     "big-promo-Apps" : BigPromoApps,
 
-    // "futuristic-Desktop" : FuturisticDesktop,
-    // "futuristic-Mobile" : FuturisticMobile,
-    // "futuristic-Apps" : FuturisticApps,
+    "futuristic-Desktop" : FuturisticDesktop,
+    "futuristic-Mobile" : FuturisticMobile,
+    "futuristic-Apps" : FuturisticApps,
 
     // "classy-Desktop" : ClassyDesktop,
     // "classy-Mobile" : ClassyMobile,
