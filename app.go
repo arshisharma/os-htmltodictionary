@@ -132,6 +132,40 @@ var SophisticatedMobile = map[string]ScrapeElement {
 
 var SophisticatedApps = SophisticatedMobile
 
+var ConvenienceDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
+    "V1" : {[]string{".small-brand-logo"}, 0},
+    "V2" : {[]string{".small-brand-logo"}, 1},
+    "V3" : {[]string{".small-brand-logo"}, 2},
+    "V4" : {[]string{".small-brand-logo"}, 3},
+    "V5" : {[]string{".small-brand-logo"}, 4},
+    "V6" : {[]string{".small-brand-logo"}, 5},
+    "V7" : {[]string{".small-brand-logo"}, 6},
+    "VV1" : {[]string{".swiper-slide"}, 0},
+    "VV2" : {[]string{".swiper-slide"}, 1},
+    "E1" : {[]string{".official-promo-top-video"}, 0},
+    "VVV1" : {[]string{".span6.official-shop-promo__type2", ".mt-20"}, 0},
+    "VVV2" : {[]string{".span6.official-shop-promo__type2"}, 1},
+    "B1" : {[]string{".official-shop-branding"}, 1},
+}
+
+var ConvenienceMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
+    "V1" : {[]string{".official-shop-brands", ".swiper-slide"}, 0},
+    "V2" : {[]string{".official-shop-brands", ".swiper-slide"}, 1},
+    "V3" : {[]string{".official-shop-brands", ".swiper-slide"}, 2},
+    "V4" : {[]string{".official-shop-brands", ".swiper-slide"}, 3},
+    "V5" : {[]string{".official-shop-brands", ".swiper-slide"}, 4},
+    "V6" : {[]string{".official-shop-brands", ".swiper-slide"}, 5},
+    "V7" : {[]string{".official-shop-brands", ".swiper-slide"}, 6},
+    "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
+    "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
+    "VVV1" : {[]string{".row-fluid.mt-20"}, 0},
+    "VVV2" : {[]string{".row-fluid.mt-20"}, 1},
+}
+
+var ConvenienceApps = ConvenienceMobile
+
 var Scrapers = map[string]interface{} {
     "advanced-Desktop" : AdvancedDesktop,
     "advanced-Mobile" : AdvancedMobile,
@@ -145,9 +179,9 @@ var Scrapers = map[string]interface{} {
     "sophisticated-Mobile" : SophisticatedMobile,
     "sophisticated-Apps" : SophisticatedApps,
 
-    // "convenience-Desktop" : ConvenienceDesktop,
-    // "convenience-Mobile" : ConvenienceMobile,
-    // "convenience-Apps" : ConvenienceApps,
+    "convenience-Desktop" : ConvenienceDesktop,
+    "convenience-Mobile" : ConvenienceMobile,
+    "convenience-Apps" : ConvenienceApps,
 
     // "big-promo-Desktop" : BigPromoDesktop,
     // "big-promo-Mobile" : BigPromoMobile,
@@ -288,7 +322,7 @@ func BuildDict(fp string, fouts string, template string, section string) {
                 } else if (key == "VideoImage") {
                     content = GetValue(docs, list[sectionTitle], "img")
                 } else if (key == "Option") {
-                    if (GetValue(docs, list[sectionTitle], "data-video-colorbox") == "") {
+                    if (GetValue(docs, list[sectionTitle], "data-video-colorbox") == "" && GetValue(docs, list[sectionTitle], "video-url") == "") {
                         content = "image"
                     } else {
                         content = "video"
