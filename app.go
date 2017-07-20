@@ -166,6 +166,32 @@ var ConvenienceMobile = map[string]ScrapeElement {
 
 var ConvenienceApps = ConvenienceMobile
 
+var BigPromoDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
+    "VV1" : {[]string{".swiper-slide"}, 0},
+    "VV2" : {[]string{".swiper-slide"}, 1},
+    "VV3" : {[]string{".swiper-slide"}, 2},
+    "T" : {[]string{".official-shop-top-video-half"}, 0},
+    "V1" : {[]string{".official-shop-promo__type2"}, 0},
+    "V2" : {[]string{".official-shop-promo__type2"}, 1},
+    "V3" : {[]string{".official-shop-promo__type2"}, 2},
+    "V4" : {[]string{".official-shop-promo__type2"}, 3},
+}
+
+var BigPromoMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
+    "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
+    "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
+    "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
+    "T" : {[]string{".official-shop-video"}, 0},
+    "V1" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 0},
+    "V2" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 1},
+    "V3" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 2},
+    "V4" : {[]string{".section-official-shop-promo__type3", ".swiper-slide"}, 3},
+}
+
+var BigPromoApps = BigPromoMobile
+
 var Scrapers = map[string]interface{} {
     "advanced-Desktop" : AdvancedDesktop,
     "advanced-Mobile" : AdvancedMobile,
@@ -183,9 +209,9 @@ var Scrapers = map[string]interface{} {
     "convenience-Mobile" : ConvenienceMobile,
     "convenience-Apps" : ConvenienceApps,
 
-    // "big-promo-Desktop" : BigPromoDesktop,
-    // "big-promo-Mobile" : BigPromoMobile,
-    // "big-promo-Apps" : BigPromoApps,
+    "big-promo-Desktop" : BigPromoDesktop,
+    "big-promo-Mobile" : BigPromoMobile,
+    "big-promo-Apps" : BigPromoApps,
 
     // "futuristic-Desktop" : FuturisticDesktop,
     // "futuristic-Mobile" : FuturisticMobile,
@@ -230,6 +256,8 @@ func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
             return x.Slice(key.index, x.Length()).Text()
         } else if (attr == "video-url") {
             return x.Slice(key.index, x.Length()).Find("iframe").AttrOr("src", "")
+        } else if (attr == "video-title") {
+            return x.Slice(key.index, x.Length()).Find("iframe").AttrOr("data-video-title", "")
         } else if (attr == "href" || attr == "data-value" || attr == "data-name" || strings.Contains(attr, "video")) {
             return x.Slice(key.index, x.Length()).Find("a").AttrOr(attr, "")
         } else if (attr == "txt") {
@@ -310,6 +338,9 @@ func BuildDict(fp string, fouts string, template string, section string) {
                     }
                 } else if (key == "VideoTitle") {
                     content = GetValue(docs, list[sectionTitle], "data-video-title")
+                    if (content == "") {
+                        content = GetValue(docs, list[sectionTitle], "video-title")
+                    }
                 } else if (key == "VideoUrl") {
                     content = GetValue(docs, list[sectionTitle], "data-video-colorbox")
                     if (content == "") {
