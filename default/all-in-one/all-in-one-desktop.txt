@@ -1,0 +1,303 @@
+[VV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Top Sliding Banner 1
+ 
+[VV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Top Sliding Banner 2
+
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Top Sliding Banner 3
+
+[T1]
+    TabText = 
+    DisplayName = Tab 1
+
+[T2]
+    TabText = 
+    DisplayName = Tab 2
+
+[T3]
+    TabText = 
+    DisplayName = Tab 3
+
+[T4]
+    TabText = 
+    DisplayName = Tab 4
+
+[V1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Left 1
+
+[L1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 1
+
+[L2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 2
+
+[L3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 3
+
+[L4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 4
+
+[L5]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 5
+
+[L6]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 6
+
+[L7]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 7
+
+[L8]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 8
+
+[L9]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 9
+
+[L10]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 10
+
+[L11]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 11
+
+[L12]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 12
+
+[L13]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 1 Box 13
+
+[V2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Left 2
+
+[LL1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 2 Box 1
+
+[LL2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 2 Box 2
+
+[LL3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 2 Box 3
+
+[V3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Left 3
+
+[LLL1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 1
+
+[LLL2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 2
+
+[LLL3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 3
+
+[LLL4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 4
+
+[LLL5]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 5
+
+[LLL6]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 6
+
+[LLL7]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 7
+
+[LLL8]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 3 Box 8
+
+[V4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Left 4
+
+[LLLL1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 4 Box 1
+
+[LLLL2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 4 Box 2
+
+[LLLL3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Right 4 Box 3
+
+[VVV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Left
+
+[VVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Right

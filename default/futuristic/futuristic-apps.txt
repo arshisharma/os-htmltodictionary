@@ -1,0 +1,41 @@
+[VV1]
+    Image = 
+    Target = etalase
+    Url =       
+    DisplayName = Top Sliding Banner 1
+ 
+[VV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Top Sliding Banner 2
+
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Top Sliding Banner 3
+
+[V1]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Bottom Leftmost
+
+[V2]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Bottom Left
+
+[V3]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Bottom Right
+
+[V4] 
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Bottom Rightmost

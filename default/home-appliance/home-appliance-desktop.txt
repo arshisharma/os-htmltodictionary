@@ -1,0 +1,79 @@
+[VV1]
+    Image =
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Top Left
+
+[VV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName =
+    DataValue = 
+    DisplayName = Top Middle
+
+[VVV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Top Right Half Top
+
+[VVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Top Right Half Left
+
+[VVV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Top Right Half Right
+
+[VVVV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Leftmost
+
+[VVVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Left
+
+[VVVV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Middle
+ 
+[VVVV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Right
+
+[VVVV5]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom Rightmost

@@ -1,0 +1,87 @@
+[VV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Top Sliding Banner 1
+
+[VV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Top Sliding Banner 2
+
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Top Sliding Banner 3
+
+[VVV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Middle Upper
+
+[VVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Middle Lower Left
+
+[VVV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Middle Lower Right
+
+[VVVV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Bottom 1
+
+[VVVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Bottom 2
+
+[VVVV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Bottom 3
+     
+[VVVV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Bottom 4
+
+[VVVV5]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue =
+    DisplayName = Bottom 5

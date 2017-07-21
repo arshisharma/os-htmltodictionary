@@ -1,0 +1,70 @@
+[G]
+    TitleText = 
+    DisplayName = Title
+
+[VV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Top Sliding Banner 1         
+ 
+[VV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Top Sliding Banner 2
+
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName =  
+    DataValue = 
+    DisplayName = Top Sliding Banner 3
+
+[T]
+    Option = video
+    VideoTitle = 
+    VideoUrl = 
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle
+
+[V1]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom 1
+
+[V2]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Bottom 2
+
+[V3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName =
+    DataValue = 
+    DisplayName = Bottom 3
+
+[V4]
+    Image = 
+    Target = etalase
+    Url =  
+    DataName =
+    DataValue = 
+    DisplayName = Bottom 4

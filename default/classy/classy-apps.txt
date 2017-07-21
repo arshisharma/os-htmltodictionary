@@ -1,0 +1,51 @@
+[G]
+    TitleText = 
+    DisplayName = Title
+
+[VV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Top Left
+
+[VV2]
+    Image =     
+    Target = etalase
+    Url = 
+    DisplayName = Top Middle
+
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Top Right
+
+[VVV1] 
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle Sliding Banner 1
+
+[VVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle Sliding Banner 2
+
+[VVV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle Sliding Banner 3
+
+[VVVV1]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Bottom Left
+
+[VVVV2]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Bottom Right

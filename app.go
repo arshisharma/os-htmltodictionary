@@ -4,6 +4,7 @@ import (
     "fmt"
     "golang.org/x/net/html"
     //"html/template"
+    "net/http"
     "log"
     "os"
     "strings"
@@ -12,17 +13,18 @@ import (
 )
 
 func main() {
-    if len(os.Args) != 4 {
-        fmt.Printf("Usage: ./htmlparser file.html outputfile template-name device-type\n")
+    if len(os.Args) != 6 {
+        fmt.Printf("Usage: ./htmlparser [--file | --web] file.html outputfile template-name device-type\n")
         return
     }
 
-    htmlFile := os.Args[1]
-    outFile := os.Args[2]
-    template := os.Args[3]
-    section := os.Args[4]
+    source := os.Args[1]
+    htmlFile := os.Args[2]
+    outFile := os.Args[3]
+    template := os.Args[4]
+    section := os.Args[5]
 
-    BuildDict(htmlFile, outFile, template, section)
+    BuildDict(source, htmlFile, outFile, template, section)
 }
 
 func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
@@ -64,13 +66,34 @@ func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
     return ""
 }
 
-func BuildDict(fp string, fouts string, template string, section string) {
-    //open html file
-    fph, err := os.Open(fp)
-    if err != nil {
-        return
+func BuildDict(source string, fp string, fouts string, template string, section string) {
+    log.Println("default/" + template + "/" + template + "-" + strings.ToLower(section)+".txt")
+    var docs *goquery.Document
+    if (source == "--file") {
+        //open html file
+        fph, err := os.Open(fp)
+        if err != nil {
+            return
+        }
+        defer fph.Close()
+
+        //parse html file
+        doc, err := html.Parse(fph)
+        if err != nil {
+            return
+        }
+        docs = goquery.NewDocumentFromNode(doc)
+    } else if (source == "--web") {
+        response, err := http.Get(fp)
+        if err != nil {
+           log.Println(err)
+        }
+        defer response.Body.Close()
+        docs, err = goquery.NewDocumentFromResponse(response)
+        if err != nil {
+            log.Println(err)
+        }
     }
-    defer fph.Close()
 
     //create output file
     fout, err := os.Create(fouts)
@@ -79,18 +102,12 @@ func BuildDict(fp string, fouts string, template string, section string) {
     }
     defer fout.Close()
 
-    //parse html file
-    doc, err := html.Parse(fph)
-    if err != nil {
-        return
-    }
-    docs := goquery.NewDocumentFromNode(doc)
 
     //get ScrapeElement
     list := Scrapers[template+"-"+section].(map[string]ScrapeElement)
 
     //get default dict content
-    default_dict, err := os.Open(strings.ToLower(section)+".txt")
+    default_dict, err := os.Open("default/" + template + "/" + template + "-" + strings.ToLower(section)+".txt")
     if err != nil {
         return
     }
@@ -166,10 +183,10 @@ func BuildDict(fp string, fouts string, template string, section string) {
                 } else if (key == "TabText") {
                     content = GetValue(docs, list[sectionTitle], "text")
                 }
-                log.Println("\t"+key + " = " + content)
+                //log.Println("\t"+key + " = " + content)
                 fout.WriteString("\t"+key + " = " + content + "\n")
             } else {
-                log.Println(key)
+                // log.Println(key)
                 fout.WriteString(key + "\n")
                 //Check if line is section title
                 if (key[0] == '[' && key[len(key)-1] == ']') {
