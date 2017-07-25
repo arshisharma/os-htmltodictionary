@@ -26,6 +26,14 @@
     DataValue = 
     DisplayName = Top Left Sliding Banner 3
 
+[VV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName =  
+    DataValue = 
+    DisplayName = Top Left Sliding Banner 4
+
 [T]
     Option = video
     VideoTitle = 

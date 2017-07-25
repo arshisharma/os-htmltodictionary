@@ -1,0 +1,512 @@
+[VV1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/15-06-17/sliding-banner-1.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/paket-ramadhan
+	DataName = Paket Ramadhan
+	DataValue = 7441107
+	DisplayName = Top Sliding Banner 1
+
+[VV2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/15-06-17/sliding-banner-2.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/paket-ramadhan
+	DataName = Paket Ramadhan
+	DataValue = 7441107
+	DisplayName = Top Sliding Banner 2
+
+[VV3]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Top Sliding Banner 3
+
+[VV4]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Top Sliding Banner 4
+
+[T1]
+	TabText = Personal Care
+	DisplayName = Tab 1
+
+[T2]
+	TabText = Baby & Kids
+	DisplayName = Tab 2
+
+[T3]
+	TabText = Home Care
+	DisplayName = Tab 3
+
+[T4]
+	TabText = Food
+	DisplayName = Tab 4
+
+[V1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/left-banner-1.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/clear
+	DataName = Clear
+	DataValue = 6161645
+	DisplayName = Middle Left 1
+
+[L1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/ponds.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/ponds
+	DataName = Ponds
+	DataValue = 6161620
+	DisplayName = Middle Right 1 Box 1
+
+[L2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/dove.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/dove
+	DataName = Dove
+	DataValue = 6161640
+	DisplayName = Middle Right 1 Box 2
+
+[L3]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/vaseline.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/vaseline
+	DataName = Vaseline
+	DataValue = 6161651
+	DisplayName = Middle Right 1 Box 3
+
+[L4]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/citra.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/citra
+	DataName = Citra
+	DataValue = 6268073
+	DisplayName = Middle Right 1 Box 4
+
+[L5]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/lux.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/lux
+	DataName = Lux
+	DataValue = 6161770
+	DisplayName = Middle Right 1 Box 5
+
+[L6]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/lifebuoy.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/lifebuoy
+	DataName = Lifebuoy
+	DataValue = 6268146
+	DisplayName = Middle Right 1 Box 6
+
+[L7]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/rexona.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/rexona
+	DataName = Rexona
+	DataValue = 6169993
+	DisplayName = Middle Right 1 Box 7
+
+[L8]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/axe.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/axe
+	DataName = Axe
+	DataValue = 6161654
+	DisplayName = Middle Right 1 Box 8
+
+[L9]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/sunsilk.png
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 1 Box 9
+
+[L10]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/sunsilk.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/sunsilk
+	DataName = Sunsilk
+	DataValue = 6161755
+	DisplayName = Middle Right 1 Box 10
+
+[L11]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/clear.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/clear
+	DataName = Clear
+	DataValue = 6161645
+	DisplayName = Middle Right 1 Box 11
+
+[L12]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/tresemme.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/tresemme
+	DataName = Tresemme
+	DataValue = 6161628
+	DisplayName = Middle Right 1 Box 12
+
+[L13]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/personal%20care/pepsodent.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/pepsodent
+	DataName = Pepsodent
+	DataValue = 6161659
+	DisplayName = Middle Right 1 Box 13
+
+[V2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/left-banner-2.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/zwitsal
+	DataName = Zwitsal
+	DataValue = 6161692
+	DisplayName = Middle Left 2
+
+[LL1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/baby-n-kids/zwitsal.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/zwitsal
+	DataName = Zwitsal
+	DataValue = 6161692
+	DisplayName = Middle Right 2 Box 1
+
+[LL2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/baby-n-kids/molto.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/molto
+	DataName = Molto
+	DataValue = 6161666
+	DisplayName = Middle Right 2 Box 2
+
+[LL3]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/baby-n-kids/pepsodent.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/pepsodent
+	DataName = Pepsodent
+	DataValue = 6161659
+	DisplayName = Middle Right 2 Box 3
+
+[LL4]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 4
+
+[LL5]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 5
+
+[LL6]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 6
+
+[LL7]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 7
+
+[LL8]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 8
+
+[LL9]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 9
+
+[LL10]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 10
+
+[LL11]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 11
+
+[LL12]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 12
+
+[LL13]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 2 Box 13
+
+[V3]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/left-banner-3.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/sunlight
+	DataName = Sunlight
+	DataValue = 6268224
+	DisplayName = Middle Left 3
+
+[LLL1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/rinso.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/rinso
+	DataName = Rinso
+	DataValue = 6161663
+	DisplayName = Middle Right 3 Box 1
+
+[LLL2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/molto.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/molto
+	DataName = Molto
+	DataValue = 6161666
+	DisplayName = Middle Right 3 Box 2
+
+[LLL3]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/sunlight.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/sunlight
+	DataName = Sunlight
+	DataValue = 6268224
+	DisplayName = Middle Right 3 Box 3
+
+[LLL4]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/domestos.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/domestos
+	DataName = Domestos
+	DataValue = 6170313
+	DisplayName = Middle Right 3 Box 4
+
+[LLL5]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/cif.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/cif
+	DataName = Cif
+	DataValue = 6169449
+	DisplayName = Middle Right 3 Box 5
+
+[LLL6]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/superpell.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/super-pell
+	DataName = Super Pell
+	DataValue = 6169456
+	DisplayName = Middle Right 3 Box 6
+
+[LLL7]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/home-care/wipol.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/wipol
+	DataName = Wipol
+	DataValue = 6268254
+	DisplayName = Middle Right 3 Box 7
+
+[LLL8]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/vixal.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/vixal
+	DataName = Vixal
+	DataValue = 6268245
+	DisplayName = Middle Right 3 Box 8
+
+[LLL9]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 3 Box 9
+
+[LLL10]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 3 Box 10
+
+[LLL11]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 3 Box 11
+
+[LLL12]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 3 Box 12
+
+[LLL13]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 3 Box 13
+
+[V4]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/left-banner-4.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/bango
+	DataName = Bango
+	DataValue = 6161723
+	DisplayName = Middle Left 4
+
+[LLLL1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/foods/bango.png
+	Target = etalase
+	Url =  https://www.tokopedia.com/unilever/etalase/bango
+	DataName = Bango
+	DataValue = 6161723
+	DisplayName = Middle Right 4 Box 1
+
+[LLLL2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/foods/royco.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/royco
+	DataName = Royco
+	DataValue = 6161728
+	DisplayName = Middle Right 4 Box 2
+
+[LLLL3]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/foods/blue-band.png
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/blue-band
+	DataName = Blue Band
+	DataValue = 6170254
+	DisplayName = Middle Right 4 Box 3
+
+[LLLL4]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 4
+
+[LLLL5]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 5
+
+[LLLL6]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 6
+
+[LLLL7]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 7
+
+[LLLL8]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 8
+
+[LLLL9]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 9
+
+[LLLL10]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 10
+
+[LLLL11]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 11
+
+[LLLL12]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 12
+
+[LLLL13]
+	Image = 
+	Target = etalase
+	Url = 
+	DataName = 
+	DataValue = 
+	DisplayName = Middle Right 4 Box 13
+
+[VVV1]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/supporting-banner-1.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/lifebuoy
+	DataName = Lifebuoy
+	DataValue = 6268146
+	DisplayName = Bottom Left
+
+[VVV2]
+	Image = https://ecs7.tokopedia.net/img/official_store/unilever/supporting-banner-2.jpg
+	Target = etalase
+	Url = https://www.tokopedia.com/unilever/etalase/molto
+	DataName = Molto
+	DataValue = 6161666
+	DisplayName = Bottom Right
+

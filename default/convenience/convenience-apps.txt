@@ -6,43 +6,43 @@
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 1
+    DisplayName = Top Category Banner 1
 
 [V2]
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 2
+    DisplayName = Top Category Banner 2
 
 [V3]
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 3
+    DisplayName = Top Category Banner 3
 
 [V4]
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 4
+    DisplayName = Top Category Banner 4
 
 [V5]
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 5
+    DisplayName = Top Category Banner 5
 
 [V6]
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 6
+    DisplayName = Top Category Banner 6
 
 [V7]
     Image = 
     Target = etalase
     Url = 
-    DisplayName = Top 7
+    DisplayName = Top Category Banner 7
 
 [VV1]
     Image = 
@@ -55,6 +55,18 @@
     Target = etalase
     Url = 
     DisplayName = Middle Sliding Banner 2
+
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle Sliding Banner 3
+
+[VV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle Sliding Banner 4
 
 [VVV1]
     Image = 

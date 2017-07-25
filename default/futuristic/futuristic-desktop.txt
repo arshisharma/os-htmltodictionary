@@ -22,6 +22,22 @@
     DataValue = 
     DisplayName = Top Sliding Banner 3
 
+[VV3]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName =
+    DataValue = 
+    DisplayName = Top Sliding Banner 3
+
+[VV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName =
+    DataValue = 
+    DisplayName = Top Sliding Banner 4
+
 [V1]
     Image = 
     Target = etalase

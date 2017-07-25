@@ -35,6 +35,9 @@ func GetValue(doc *goquery.Document, key ScrapeElement, attr string) string {
         if (v == ".brand-list-box") {
             if (key.index < x.Length()) {
                 if (attr == "href" || attr == "data-value" || attr == "data-name") {
+                    if (x.Slice(key.index, x.Length()).AttrOr(attr, "") == "javascript:void(0);") {
+                        return "";
+                    }
                     return x.Slice(key.index, x.Length()).AttrOr(attr, "")
                 } else if (attr == "img") {
                     return x.Slice(key.index, x.Length()).Find("img").AttrOr("src", "")

@@ -16,6 +16,12 @@
     Url = 
     DisplayName = Top Sliding Banner 3
 
+[VV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Top Sliding Banner 4
+
 [VVV1]
     Image = 
     Target = etalase

@@ -4,31 +4,31 @@
 
 [VVV1]
     Image =
-    DisplayName = Top 1
+    DisplayName = Top Category Banner 1
 
 [VVV2]
     Image =
-    DisplayName = Top 2
+    DisplayName = Top Category Banner 2
 
 [VVV3]
     Image =
-    DisplayName = Top 3
+    DisplayName = Top Category Banner 3
 
 [VVV4] 
     Image =
-    DisplayName = Top 4
+    DisplayName = Top Category Banner 4
 
 [VVV5] 
     Image =
-    DisplayName = Top 5
+    DisplayName = Top Category Banner 5
 
 [VVV6] 
     Image =
-    DisplayName = Top 6
+    DisplayName = Top Category Banner 6
 
 [VVV7] 
     Image = 
-    DisplayName = Top 7
+    DisplayName = Top Category Banner 7
 
 [VV1]
     Image = 

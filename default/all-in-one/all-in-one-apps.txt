@@ -16,6 +16,12 @@
     Url = 
     DisplayName = Top Sliding Banner 3
 
+[VV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Top Sliding Banner 4
+
 [T1]
     TabText = 
     DisplayName = Tab 1
@@ -128,6 +134,66 @@
     Url = 
     DisplayName = Middle 2 Box 3
 
+[LL4]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 4
+
+[LL5]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 5
+
+[LL6]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 6
+
+[LL7]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 7
+
+[LL8]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 8
+
+[LL9]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 9
+
+[LL10]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 10
+
+[LL11]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 11
+
+[LL12]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 12
+
+[LL13]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 2 Box 13
+
 [LLL1]
     Image = 
     Target = etalase
@@ -176,6 +242,36 @@
     Url = 
     DisplayName = Middle 3 Box 8
 
+[LLL9]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 3 Box 9
+
+[LLL10]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 3 Box 10
+
+[LLL11]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 3 Box 11
+
+[LLL12]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 3 Box 12
+
+[LLL13]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 3 Box 13
+
 [LLLL1]
     Image = 
     Target = etalase
@@ -193,6 +289,66 @@
     Target = etalase
     Url = 
     DisplayName = Middle 4 Box 3
+
+[LLLL4]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 4
+
+[LLLL5]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 5
+
+[LLLL6]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 6
+
+[LLLL7]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 7
+
+[LLLL8]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 8
+
+[LLLL9]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 9
+
+[LLLL10]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 10
+
+[LLLL11]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 11
+
+[LLLL12]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 12
+
+[LLLL13]
+    Image = 
+    Target = etalase
+    Url = 
+    DisplayName = Middle 4 Box 13
 
 [VVV1]
     Image = 

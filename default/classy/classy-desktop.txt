@@ -74,6 +74,14 @@
     DataValue = 
     DisplayName = Middle Lower Sliding Banner 3
 
+[VVV4]
+    Image = 
+    Target = etalase
+    Url = 
+    DataName = 
+    DataValue = 
+    DisplayName = Middle Lower Sliding Banner 4
+
 [VVVV1]
     Image = 
     Target = etalase
