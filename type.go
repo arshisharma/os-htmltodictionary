@@ -155,8 +155,8 @@ var ConvenienceMobile = map[string]ScrapeElement {
     "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
     "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
     "VV4" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 3},
-    "VVV1" : {[]string{".row-fluid.mt-20"}, 0},
-    "VVV2" : {[]string{".row-fluid.mt-20"}, 1},
+    "VVV1" : {[]string{".row-fluid.mt-20", ".span6.box-banner"}, 0},
+    "VVV2" : {[]string{".row-fluid.mt-20", ".span6.box-banner"}, 1},
 }
 
 var ConvenienceApps = ConvenienceMobile
