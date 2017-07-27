@@ -94,7 +94,6 @@
     Option = video
     VideoTitle = 
     VideoUrl = 
-    VideoId = 
     VideoName = 
     VideoImage = 
     Image = 
