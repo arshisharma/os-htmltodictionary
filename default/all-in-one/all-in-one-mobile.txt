@@ -118,38 +118,6 @@
     DataValue = 
     DisplayName = Middle 1 Box 9
 
-[L10]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 1 Box 10
-
-[L11]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 1 Box 11
-
-[L12]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 1 Box 12
-
-[L13]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 1 Box 13
-
 [LL1]
     Image = 
     Target = etalase
@@ -221,38 +189,6 @@
     DataName =
     DataValue = 
     DisplayName = Middle 2 Box 9
-
-[LL10]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 2 Box 10
-
-[LL11]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 2 Box 11
-
-[LL12]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 2 Box 12
-
-[LL13]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 2 Box 13
 
 [LLL1]
     Image = 
@@ -326,38 +262,6 @@
     DataValue = 
     DisplayName = Middle 3 Box 9
 
-[LLL10]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 3 Box 10
-
-[LLL11]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 3 Box 11
-
-[LLL12]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 3 Box 12
-
-[LLL13]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 3 Box 13
-
 [LLLL1]
     Image = 
     Target = etalase
@@ -429,38 +333,6 @@
     DataName =
     DataValue = 
     DisplayName = Middle 4 Box 9
-
-[LLLL10]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 4 Box 10
-
-[LLLL11]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 4 Box 11
-
-[LLLL12]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 4 Box 12
-
-[LLLL13]
-    Image = 
-    Target = etalase
-    Url = 
-    DataName =
-    DataValue = 
-    DisplayName = Middle 4 Box 13
 
 [VVV1]
     Image = 
