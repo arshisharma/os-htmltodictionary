@@ -190,6 +190,7 @@ var BigPromoMobile = map[string]ScrapeElement {
 var BigPromoApps = BigPromoMobile
 
 var FuturisticDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
     "VV1" : {[]string{".swiper-slide"}, 0},
     "VV2" : {[]string{".swiper-slide"}, 1},
     "VV3" : {[]string{".swiper-slide"}, 2},
@@ -202,6 +203,7 @@ var FuturisticDesktop = map[string]ScrapeElement {
 }
 
 var FuturisticMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
     "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
     "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
     "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
@@ -246,6 +248,7 @@ var ClassyMobile = map[string]ScrapeElement {
 var ClassyApps = ClassyMobile
 
 var HomeApplianceDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
     "VV1" : {[]string{".promo-banner-col3.hovered"}, 0},
     "VV2" : {[]string{".promo-banner-col3.hovered"}, 1},
     "VVV1" : {[]string{".promo-banner-col3", ".row-fluid.hovered"}, 0},
@@ -259,6 +262,7 @@ var HomeApplianceDesktop = map[string]ScrapeElement {
 }
 
 var HomeApplianceMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
     "VV1" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 0},
     "VV2" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 1},
     "VV3" : {[]string{".official-shop-bigSlider", ".swiper-slide"}, 2},
@@ -276,6 +280,7 @@ var HomeApplianceMobile = map[string]ScrapeElement {
 var HomeApplianceApps = HomeApplianceMobile
 
 var AllInOneDesktop = map[string]ScrapeElement {
+    "G" : {[]string{"h2"}, 0},
     "VV1" : {[]string{".swiper-slide"}, 0},
     "VV2" : {[]string{".swiper-slide"}, 1},
     "VV3" : {[]string{".swiper-slide"}, 2},
@@ -345,6 +350,7 @@ var AllInOneDesktop = map[string]ScrapeElement {
 }
 
 var AllInOneMobile = map[string]ScrapeElement {
+    "G" : {[]string{"h1"}, 0},
     "VV1" : {[]string{".swiper-slide"}, 0},
     "VV2" : {[]string{".swiper-slide"}, 1},
     "VV3" : {[]string{".swiper-slide"}, 2},

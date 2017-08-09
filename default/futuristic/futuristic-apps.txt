@@ -1,3 +1,7 @@
+[G]
+    TitleText = 
+    DisplayName = Title
+
 [VV1]
     Image = 
     Target = etalase
